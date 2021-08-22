@@ -11,7 +11,7 @@ def show_output():
 
 window = tk.Tk()
 window.title('โปรแกรมคำนวนสูตรคูณ')
-window.minsize(width=400, height=400)
+window.minsize(width=500, height=400)
 
 title_label = tk.Label(master=window, text='กรุณาระบุแม่สูตรคูณ')
 title_label.pack()

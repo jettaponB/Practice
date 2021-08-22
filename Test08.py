@@ -6,7 +6,7 @@ def set_message():
 
 window = tk.Tk()
 window.title('Desktop Application')
-window.minsize(width=500, height=600)
+window.minsize(width=500, height=700)
 
 title_label = tk.Label(master=window, text='กรุณาระบุข้อความ')
 title_label.pack()
